@@ -1,7 +1,7 @@
-# NextJS Starter Kit
+# Resilient Frontend
 
-![version](https://img.shields.io/github/package-json/v/sex-request/nextjs-starter-kit)
-![License MIT](https://img.shields.io/github/license/sex-request/nextjs-starter-kit?style=plat)
+![version](https://img.shields.io/github/package-json/v/makeurblank/frontend)
+![License MIT](https://img.shields.io/github/license/makeurblank/frontend?style=plat)
 
 ![PnP Yarn2](https://img.shields.io/badge/Yarn2-PnP-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
 ![Next.JS](https://img.shields.io/badge/next.js-TypeScript-007ACC?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -14,39 +14,10 @@
 
 ---
 
-![Repo Size](https://img.shields.io/github/repo-size/sex-request/nextjs-starter-kit)
-![Stars](https://img.shields.io/github/stars/sex-request/nextjs-starter-kit?style=social)
-
-[![Coverage](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/coverage.yaml/badge.svg)](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/coverage.yaml)
-[![E2E](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/e2e.yaml/badge.svg)](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/e2e.yaml)
-[![Deploy NextJS](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/deploy-nextjs.yaml/badge.svg)](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/deploy-nextjs.yaml)
-[![Deploy Storybook](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/deploy-storybook.yaml/badge.svg)](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/deploy-storybook.yaml)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3cb923e2-1e5a-40d8-8438-1e09da0d1efe/deploy-status)](https://nextjs-starter-kit-storybook.netlify.app/?path=/docs/example-introduction--page)
-
-This setting used by [This Repository](https://github.com/sex-request/frontend)
-
-## Default Settings
-
-- [Yarn2 with PnP](https://yarnpkg.com/)
-- [NextJS](https://nextjs.org/) with [TypeScript](https://www.typescriptlang.org/)
-- Enable [MDX](https://mdxjs.com/)
-- [Storybook on Webpack5](https://storybook.js.org/blog/storybook-for-webpack-5/) with [Sass](https://sass-lang.com/) (Using [@storybook/preset-scss](https://github.com/storybookjs/presets/tree/master/packages/preset-scss))
-- [Jest](https://jestjs.io/) (coverage 100%)
-- [Cypress](https://www.cypress.io/)
-- [ESLint](https://eslint.org/) with [airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript) rules
-- [Github Actions](https://github.com/features/actions) (Coverage, E2E, Deploy gh-pages and storybook)
-- Using [Husky](https://typicode.github.io/husky/#/)
-  - Auto update patch version before commit
-  - Check Lint, Coverage, E2E before push
-
-## [ IMPORTANT ] Must Change Here
-
-- `package.json` line 2 - project name
-- `next.config.js` line 4 - production url
-- `/public/favicon.ico` and `/public/icon-*.png`
-- `/public/manifest.json` line 5~9 - application information
-- `/pages/_document.tsx` line 10 - lang
-- `/pages/_app.tsx` line 17, 20 - description, title
+[![Coverage](https://github.com/makeurblank/frontend/actions/workflows/coverage.yaml/badge.svg)](https://github.com/makeurblank/frontend/actions/workflows/coverage.yaml)
+[![E2E](https://github.com/makeurblank/frontend/actions/workflows/e2e.yaml/badge.svg)](https://github.com/makeurblank/frontend/actions/workflows/e2e.yaml)
+[![Deploy NextJS](https://github.com/makeurblank/frontend/actions/workflows/deploy-nextjs.yaml/badge.svg)](https://github.com/makeurblank/frontend/actions/workflows/deploy-nextjs.yaml)
+[![Deploy Storybook](https://github.com/makeurblank/frontend/actions/workflows/deploy-storybook.yaml/badge.svg)](https://github.com/makeurblank/frontend/actions/workflows/deploy-storybook.yaml)
 
 ## Usage
 

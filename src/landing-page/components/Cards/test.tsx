@@ -19,7 +19,7 @@ describe('Cards Component is', () => {
   });
 
   it('Should renders given values to Card components', () => {
-    render(<Cards values={givenValues} />);
+    render(<Cards onClick={jest.fn()} values={givenValues} />);
 
     givenValues.forEach((value: string) => {
       expect(screen.getByText(value)).toBeInTheDocument();

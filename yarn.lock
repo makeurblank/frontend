@@ -16224,6 +16224,7 @@ fsevents@^1.2.7:
     "@mdx-js/react": ^1.6.22
     "@mui/icons-material": ^5.0.5
     "@mui/material": ^5.0.6
+    "@mui/system": ^5.0.6
     "@next/mdx": ^12.0.1
     "@storybook/addon-actions": ^6.3.12
     "@storybook/addon-docs": ^6.3.12

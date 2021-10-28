@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/styled", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:11.3.0"],
             ["@mdx-js/loader", "npm:1.6.22"],
             ["@mdx-js/react", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:1.6.22"],
+            ["@mui/icons-material", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:5.0.5"],
             ["@mui/material", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:5.0.6"],
             ["@next/mdx", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:12.0.1"],
             ["@storybook/addon-actions", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:6.3.12"],
@@ -5315,6 +5316,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/react-dom",
             "@types/react",
             "react-dom",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@mui/icons-material", [
+        ["npm:5.0.5", {
+          "packageLocation": "./.yarn/cache/@mui-icons-material-npm-5.0.5-ff5981165f-85e7304ab8.zip/node_modules/@mui/icons-material/",
+          "packageDependencies": [
+            ["@mui/icons-material", "npm:5.0.5"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:5.0.5", {
+          "packageLocation": "./.yarn/__virtual__/@mui-icons-material-virtual-4016bb04bb/0/cache/@mui-icons-material-npm-5.0.5-ff5981165f-85e7304ab8.zip/node_modules/@mui/icons-material/",
+          "packageDependencies": [
+            ["@mui/icons-material", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:5.0.5"],
+            ["@babel/runtime", "npm:7.15.4"],
+            ["@mui/material", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:5.0.6"],
+            ["@types/mui__material", null],
+            ["@types/react", "npm:17.0.30"],
+            ["react", "npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@mui/material",
+            "@types/mui__material",
+            "@types/react",
             "react"
           ],
           "linkType": "HARD",
@@ -22294,6 +22322,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/styled", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:11.3.0"],
             ["@mdx-js/loader", "npm:1.6.22"],
             ["@mdx-js/react", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:1.6.22"],
+            ["@mui/icons-material", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:5.0.5"],
             ["@mui/material", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:5.0.6"],
             ["@next/mdx", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:12.0.1"],
             ["@storybook/addon-actions", "virtual:02addb2f24e5736265ec8510ab5b436522b639d7bd85790b6186e3898fa0fb6003046e807957469ad87526712e02f91564ef042d6d2150f4e7a8e996d0de392a#npm:6.3.12"],

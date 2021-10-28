@@ -12,7 +12,7 @@ export const Template = (args) => <Cards {...args} />;
 
 <Canvas>
   <Story name="cards"
-    args={[{ id: 1, value: 'card1' }, { id: 2, value: 'card2' }]}
+    args={{ values: [{ id: 1, value: 'card1' }, { id: 2, value: 'card2' }] }}
     argTypes={{
       onClick: { action: 'click' },
     }}

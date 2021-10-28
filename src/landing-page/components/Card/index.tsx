@@ -1,3 +1,5 @@
+import CardContent from '@mui/material/CardContent';
+
 import { LI } from './styles';
 
 interface Props {
@@ -9,7 +11,9 @@ export default function Card({
 }: Props): JSX.Element {
   return (
     <LI>
-      {children}
+      <CardContent>
+        {children}
+      </CardContent>
     </LI>
   );
 }

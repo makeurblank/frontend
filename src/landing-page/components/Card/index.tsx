@@ -1,3 +1,4 @@
+import MuiCard from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
 import { LI } from './styles';
@@ -11,9 +12,11 @@ export default function Card({
 }: Props): JSX.Element {
   return (
     <LI>
-      <CardContent>
-        {children}
-      </CardContent>
+      <MuiCard>
+        <CardContent>
+          {children}
+        </CardContent>
+      </MuiCard>
     </LI>
   );
 }

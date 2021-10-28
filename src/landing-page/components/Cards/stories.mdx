@@ -1,0 +1,17 @@
+import { Meta, Canvas, Story } from '@storybook/addon-docs';
+import { useState } from 'react';
+
+import Cards from './index';
+
+<Meta
+  title="landing-page/Cards"
+  component={Cards}
+/>
+
+export const Template = (args) => <Cards {...args} />;
+
+<Canvas>
+  <Story name="cards" args={{ values: ['card1', 'card2'] }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>

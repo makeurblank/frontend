@@ -1,0 +1,20 @@
+import { Meta, Canvas, Story } from '@storybook/addon-docs';
+import { useState } from 'react';
+
+import TodoInput from './index';
+
+<Meta
+  title="landing-page/TodoInput"
+  component={TodoInput}
+/>
+
+export const Template = (args) => {
+  const [value, setValue] = useState('');
+  return <TodoInput value={value} onChange={setValue} />
+}
+
+<Canvas>
+  <Story name="textarea">
+    {Template.bind({})}
+  </Story>
+</Canvas>

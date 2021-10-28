@@ -1,8 +1,16 @@
 import type { AppProps } from 'next/app';
 
 import Head from 'next/head';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Box from '@mui/material/Box';
 
 import GlobalStyle from 'src/common/Global.styles';
+
+const theme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -20,7 +28,19 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>resilient</title>
       </Head>
       <GlobalStyle />
-      <Component {...pageProps} />
+
+      <ThemeProvider theme={theme}>
+        <Box
+          sx={{
+            width: '100vw',
+            minHeight: '100vh',
+            color: 'text.primary',
+            bgcolor: 'background.default',
+          }}
+        >
+          <Component {...pageProps} />
+        </Box>
+      </ThemeProvider>
     </>
   );
 }

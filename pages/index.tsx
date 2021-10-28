@@ -1,6 +1,8 @@
 import type { CardProps } from 'src/landing-page/components/Cards';
 
 import { useState } from 'react';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 
 import Cards from 'src/landing-page/components/Cards';
 import CreateCardButton from 'src/landing-page/components/CreateCardButton';
@@ -19,10 +21,12 @@ export default function LandingPage(): JSX.Element {
   };
 
   return (
-    <>
-      <TodoInput value={value} onChange={setValue} />
-      <CreateCardButton onClick={onCreate} />
+    <Container sx={{ padding: '4rem 0' }}>
+      <Box sx={{ marginBottom: '1rem' }}>
+        <TodoInput value={value} onChange={setValue} />
+        <CreateCardButton onClick={onCreate} />
+      </Box>
       <Cards values={values} onClick={onDelete} />
-    </>
+    </Container>
   );
 }

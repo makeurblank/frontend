@@ -1,3 +1,6 @@
+import Typography from '@mui/material/Typography';
+import CardActions from '@mui/material/CardActions';
+
 import Card from 'src/landing-page/components/Card';
 import DeleteCardButton from 'src/landing-page/components/DeleteCardButton';
 import { UL } from './styles';
@@ -20,8 +23,12 @@ export default function Cards({
       {
         values.map(({ id, value }) => (
           <Card key={id}>
-            {value}
-            <DeleteCardButton onClick={() => onClick(id)} />
+            <Typography>
+              {value}
+            </Typography>
+            <CardActions>
+              <DeleteCardButton onClick={() => onClick(id)} />
+            </CardActions>
           </Card>
         ))
       }

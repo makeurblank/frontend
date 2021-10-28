@@ -2,8 +2,12 @@ import Card from 'src/landing-page/components/Card';
 import DeleteCardButton from 'src/landing-page/components/DeleteCardButton';
 import { UL } from './styles';
 
+export interface CardProps {
+  id: number;
+  value: string;
+}
 interface Props {
-  values: string[];
+  values: CardProps[];
   onClick: (index: number) => void;
 }
 
@@ -14,10 +18,10 @@ export default function Cards({
   return (
     <UL>
       {
-        values.map((value: string, index: number) => (
-          <Card key={value}>
+        values.map(({ id, value }) => (
+          <Card key={id}>
             {value}
-            <DeleteCardButton onClick={() => onClick(index)} />
+            <DeleteCardButton onClick={() => onClick(id)} />
           </Card>
         ))
       }

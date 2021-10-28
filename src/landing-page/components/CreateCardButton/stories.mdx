@@ -1,14 +1,14 @@
 import { Meta, Canvas, Story } from '@storybook/addon-docs';
 import { useState } from 'react';
 
-import DeleteCardButton from './index';
+import CreateCardButton from './index';
 
 <Meta
-  title="landing-page/DeleteCardButton"
-  component={DeleteCardButton}
+  title="landing-page/CreateCardButton"
+  component={CreateCardButton}
 />
 
-export const Template = (args) => <DeleteCardButton {...args} />
+export const Template = (args) => <CreateCardButton {...args} />;
 
 <Canvas>
   <Story name="button" argTypes={{ onClick: { action: 'click' } }}>

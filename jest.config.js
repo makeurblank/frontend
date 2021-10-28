@@ -72,6 +72,7 @@ module.exports = {
 
     '.config.',
     'coverage',
+    '/pages/',
     '/stories/',
     'styles.tsx',
     

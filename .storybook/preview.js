@@ -13,6 +13,15 @@ Object.defineProperty(NextImage, 'default', {
   ),
 });
 
+export const decorators = [
+  (Story) => (
+    <>
+      <GlobalStyle />
+      <Story />
+    </>
+  ),
+];
+
 export const parameters = {
   controls: {
     matchers: {

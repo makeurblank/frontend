@@ -1,7 +1,12 @@
-import type { NextPage } from 'next';
+import { useState } from 'react';
+import TodoInput from 'src/landing-page/components/TodoInput';
 
-const Home: NextPage = () => (
-  <></>
-);
+export default function LandingPage(): JSX.Element {
+  const [value, setValue] = useState('');
 
-export default Home;
+  return (
+    <>
+      <TodoInput value={value} onChange={setValue} />
+    </>
+  );
+}

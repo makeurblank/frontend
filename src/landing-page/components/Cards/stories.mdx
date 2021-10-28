@@ -11,7 +11,12 @@ import Cards from './index';
 export const Template = (args) => <Cards {...args} />;
 
 <Canvas>
-  <Story name="cards" args={{ values: ['card1', 'card2'] }}>
+  <Story name="cards"
+    args={{ values: ['card1', 'card2'] }}
+    argTypes={{
+      onClick: { action: 'click' },
+    }}
+  >
     {Template.bind({})}
   </Story>
 </Canvas>

@@ -1,15 +1,15 @@
 import { LI } from './styles';
 
 interface Props {
-  value: string;
+  children: React.ReactNode;
 }
 
 export default function Card({
-  value,
+  children,
 }: Props): JSX.Element {
   return (
     <LI>
-      {value}
+      {children}
     </LI>
   );
 }

@@ -1,6 +1,6 @@
 {
   "name": "resilient-frontend",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,6 +19,8 @@
     "postinstall": "husky install"
   },
   "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^12.0.1",
     "next": "^12.0.1",

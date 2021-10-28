@@ -1,6 +1,6 @@
 {
   "name": "resilient-frontend",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,6 +22,7 @@
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
     "@mdx-js/loader": "^1.6.22",
+    "@mui/material": "^5.0.6",
     "@next/mdx": "^12.0.1",
     "next": "^12.0.1",
     "react": "^17.0.2",

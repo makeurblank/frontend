@@ -1,5 +1,7 @@
 import * as NextImage from 'next/image';
 
+import GlobalStyle from '../src/common/Global.styles';
+
 const OriginalNextImage = NextImage.default;
 
 Object.defineProperty(NextImage, 'default', {
